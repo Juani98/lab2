@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/FF_D.vhd" \
+"../../../../lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteC/lab1_parteC.srcs/sources_1/new/PowerOnReset.vhd" \
+"../../../../lab2_comparador_salida.srcs/sources_1/imports/sources_1/imports/new/counter_Nbits.vhd" \
+"../../../../lab2_comparador_salida.srcs/sources_1/imports/sources_1/new/divisor_frecuencia.vhd" \
+"../../../../lab2_comparador_salida.srcs/sources_1/new/lab2_comparador_salida.vhd" \
+"../../../../lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/synchronizer.vhd" \
+"../../../../lab2_comparador_salida.srcs/sim_1/new/testbench_comparador_salida.vhd" \
+
+# Do not sort compile order
+nosort

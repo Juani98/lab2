@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab2_reset_async_sync.srcs/sources_1/new/PowerOnReset.vhd" \
+"../../../../lab2_reset_async_sync.srcs/sim_1/new/testbench_power_on_reset.vhd" \
+
+# Do not sort compile order
+nosort

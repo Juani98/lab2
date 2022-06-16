@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab2_ROM_inf.srcs/sources_1/new/package_inf_rom.vhd" \
+"../../../../lab2_ROM_inf.srcs/sources_1/new/lab2_ROM_inf.vhd" \
+"../../../../lab2_ROM_inf.srcs/sim_1/new/lad2_ROM_inf_testbench.vhd" \
+
+# Do not sort compile order
+nosort

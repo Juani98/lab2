@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1655317866">
+  <File Type="PA-TCL" Name="lab2_top_level_module.tcl"/>
+  <File Type="REPORTS-TCL" Name="lab2_top_level_module_reports.tcl"/>
+  <File Type="RDS-RDS" Name="lab2_top_level_module.vds"/>
+  <File Type="RDS-UTIL" Name="lab2_top_level_module_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="lab2_top_level_module_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="lab2_top_level_module.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/blk_memB_gen_0/blk_memB_gen_0.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_ROM_generated/lab2_ROM_generated.srcs/sources_1/ip/blk_memB_gen_0/blk_memB_gen_0.xci"/>
+        <Attr Name="ImportTime" Val="1654614579"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/FF_D.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/FF_D.vhd"/>
+        <Attr Name="ImportTime" Val="1652651795"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/PowerOnReset.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_reset_async_sync/lab2_reset_async_sync.srcs/sources_1/new/PowerOnReset.vhd"/>
+        <Attr Name="ImportTime" Val="1654868839"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/lab1/lab1_parteC/lab1_parteC.srcs/sources_1/new/PowerOnReset.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteC/lab1_parteC.srcs/sources_1/new/PowerOnReset.vhd"/>
+        <Attr Name="ImportTime" Val="1652653114"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/counter_3Bits.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../counter_3Bits/counter_3Bits.srcs/sources_1/new/counter_3Bits.vhd"/>
+        <Attr Name="ImportTime" Val="1654603571"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/sources_1/imports/new/counter_Nbits.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/sources_1/imports/new/counter_Nbits.vhd"/>
+        <Attr Name="ImportTime" Val="1654874112"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/sources_1/new/divisor_frecuencia.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/sources_1/new/divisor_frecuencia.vhd"/>
+        <Attr Name="ImportTime" Val="1654874097"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/lab2_FSM.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_FSM/lab2_FSM.srcs/sources_1/new/lab2_FSM.vhd"/>
+        <Attr Name="ImportTime" Val="1655145105"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab2_ROM_generated.srcs/sources_1/new/lab2_ROM_gen.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_ROM_generated/lab2_ROM_generated.srcs/sources_1/new/lab2_ROM_gen.vhd"/>
+        <Attr Name="ImportTime" Val="1654868450"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/package_inf_rom.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_ROM_inf/lab2_ROM_inf.srcs/sources_1/new/package_inf_rom.vhd"/>
+        <Attr Name="ImportTime" Val="1654533823"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/lab2_ROM_inf.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_ROM_inf/lab2_ROM_inf.srcs/sources_1/new/lab2_ROM_inf.vhd"/>
+        <Attr Name="ImportTime" Val="1654533738"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/lab2_comparador_salida.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/new/lab2_comparador_salida.vhd"/>
+        <Attr Name="ImportTime" Val="1655065883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/lab2_dual_port_ram_gen.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_dual_port_ram/lab2_dual_port_ram.srcs/sources_1/new/lab2_dual_port_ram_gen.vhd"/>
+        <Attr Name="ImportTime" Val="1654616956"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/lad2_bloque_sumador.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_bloque_sumador/lab2_bloque_sumador.srcs/sources_1/new/lad2_bloque_sumador.vhd"/>
+        <Attr Name="ImportTime" Val="1654468347"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/synchronizer.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/synchronizer.vhd"/>
+        <Attr Name="ImportTime" Val="1652884025"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lab2_top_level_module.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lab2_ROM_inf_v2.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/ip/blk_memB_gen_0/coe_files/coe_rom_b.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_ROM_generated/lab2_ROM_generated.srcs/sources_1/ip/blk_memB_gen_0/coe_files/coe_rom_b.coe"/>
+        <Attr Name="ImportTime" Val="1654615057"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/blk_memB_gen_0/coe_files/coe_rom_b.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="lab2_top_level_module"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+</GenRun>

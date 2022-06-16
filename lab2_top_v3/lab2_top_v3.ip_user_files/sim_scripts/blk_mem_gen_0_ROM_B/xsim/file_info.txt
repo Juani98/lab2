@@ -1,0 +1,1 @@
+blk_mem_gen_0_ROM_B_sim_netlist.vhdl,vhdl,xil_defaultlib,../../../../lab2_top_v3.srcs/sources_1/ip/blk_mem_gen_0_ROM_B/blk_mem_gen_0_ROM_B_sim_netlist.vhdl,

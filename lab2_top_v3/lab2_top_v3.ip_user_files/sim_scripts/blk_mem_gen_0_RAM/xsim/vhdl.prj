@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../lab2_top_v3.srcs/sources_1/ip/blk_mem_gen_0_RAM/blk_mem_gen_0_RAM_sim_netlist.vhdl" \
+
+nosort

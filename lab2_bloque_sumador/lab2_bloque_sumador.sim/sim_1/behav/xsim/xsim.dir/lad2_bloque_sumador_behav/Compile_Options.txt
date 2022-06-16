@@ -1,0 +1,1 @@
+-wto "a940ae132311434ca1fe923518196ce0" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "lad2_bloque_sumador_behav" "xil_defaultlib.lad2_bloque_sumador" -log "elaborate.log" 
