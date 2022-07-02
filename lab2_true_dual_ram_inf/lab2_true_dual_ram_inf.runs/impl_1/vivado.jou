@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jun 27 23:11:26 2022
+# Process ID: 11032
+# Current directory: C:/xilinx_proyectos/Laboratorios/lab2/lab2_true_dual_ram_inf/lab2_true_dual_ram_inf.runs/impl_1
+# Command line: vivado.exe -log true_dp_bram.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source true_dp_bram.tcl -notrace
+# Log file: C:/xilinx_proyectos/Laboratorios/lab2/lab2_true_dual_ram_inf/lab2_true_dual_ram_inf.runs/impl_1/true_dp_bram.vdi
+# Journal file: C:/xilinx_proyectos/Laboratorios/lab2/lab2_true_dual_ram_inf/lab2_true_dual_ram_inf.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source true_dp_bram.tcl -notrace

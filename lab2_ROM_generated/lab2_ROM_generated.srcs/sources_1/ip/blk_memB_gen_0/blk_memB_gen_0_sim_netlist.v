@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-// Date        : Tue Jun  7 12:20:30 2022
+// Date        : Mon Jun 27 18:52:14 2022
 // Host        : DESKTOP-TV2T1SG running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               c:/xilinx_proyectos/Laboratorios/lab2/lab2_ROM_generated/lab2_ROM_generated.srcs/sources_1/ip/blk_memB_gen_0/blk_memB_gen_0_sim_netlist.v
+//               C:/xilinx_proyectos/Laboratorios/lab2/lab2_ROM_generated/lab2_ROM_generated.srcs/sources_1/ip/blk_memB_gen_0/blk_memB_gen_0_sim_netlist.v
 // Design      : blk_memB_gen_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -279,7 +279,7 @@ module blk_memB_gen_0_blk_mem_gen_prim_wrapper_init
     .INITP_05(256'h0000000000000000000000000000000000000000000000000000000000000000),
     .INITP_06(256'h0000000000000000000000000000000000000000000000000000000000000000),
     .INITP_07(256'h0000000000000000000000000000000000000000000000000000000000000000),
-    .INIT_00(256'h0303030302020303000000000001000100020002000200020003010000000001),
+    .INIT_00(256'h0000020100000200000001030000010200000101000001000000000300000002),
     .INIT_01(256'h0000000000000000000000000000000000000000000000000000000000000000),
     .INIT_02(256'h0000000000000000000000000000000000000000000000000000000000000000),
     .INIT_03(256'h0000000000000000000000000000000000000000000000000000000000000000),

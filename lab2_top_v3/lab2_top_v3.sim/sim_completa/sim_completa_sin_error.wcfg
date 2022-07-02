@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_top_v3_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="package_inf_rom" />
+            <top_module name="testbench_top_v3" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="20971628638028fs"></ZoomStartTime>
+      <ZoomEndTime time="20972473992415fs"></ZoomEndTime>
+      <Cursor1Time time="20972455000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="235"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/testbench_top_v3/UUT_1/output_comp" type="logic">
+      <obj_property name="ElementShortName">output_comp</obj_property>
+      <obj_property name="ObjectShortName">output_comp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/hay_error_salida" type="logic">
+      <obj_property name="ElementShortName">hay_error_salida</obj_property>
+      <obj_property name="ObjectShortName">hay_error_salida</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/internal_flag_aviso_error_comp" type="logic">
+      <obj_property name="ElementShortName">internal_flag_aviso_error_comp</obj_property>
+      <obj_property name="ObjectShortName">internal_flag_aviso_error_comp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/internal_enable_counter" type="logic">
+      <obj_property name="ElementShortName">internal_enable_counter</obj_property>
+      <obj_property name="ObjectShortName">internal_enable_counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/internal_pre_load_data" type="logic">
+      <obj_property name="ElementShortName">internal_pre_load_data</obj_property>
+      <obj_property name="ObjectShortName">internal_pre_load_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/debounced_input_start_cycle" type="logic">
+      <obj_property name="ElementShortName">debounced_input_start_cycle</obj_property>
+      <obj_property name="ObjectShortName">debounced_input_start_cycle</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/out_state_FSM" type="array">
+      <obj_property name="ElementShortName">out_state_FSM[3:0]</obj_property>
+      <obj_property name="ObjectShortName">out_state_FSM[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/internal_bus_address" type="array">
+      <obj_property name="ElementShortName">internal_bus_address[2:0]</obj_property>
+      <obj_property name="ObjectShortName">internal_bus_address[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/internal_carry_out" type="logic">
+      <obj_property name="ElementShortName">internal_carry_out</obj_property>
+      <obj_property name="ObjectShortName">internal_carry_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/internal_wen_A" type="logic">
+      <obj_property name="ElementShortName">internal_wen_A</obj_property>
+      <obj_property name="ObjectShortName">internal_wen_A</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/internal_wen_B" type="logic">
+      <obj_property name="ElementShortName">internal_wen_B</obj_property>
+      <obj_property name="ObjectShortName">internal_wen_B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/internal_data_in_RAM_A" type="array">
+      <obj_property name="ElementShortName">internal_data_in_RAM_A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">internal_data_in_RAM_A[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/internal_data_in_RAM_B" type="array">
+      <obj_property name="ElementShortName">internal_data_in_RAM_B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">internal_data_in_RAM_B[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/internal_data_out_RAM_A" type="array">
+      <obj_property name="ElementShortName">internal_data_out_RAM_A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">internal_data_out_RAM_A[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/internal_data_out_RAM_B" type="array">
+      <obj_property name="ElementShortName">internal_data_out_RAM_B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">internal_data_out_RAM_B[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/internal_dato_ROM_B_out" type="array">
+      <obj_property name="ElementShortName">internal_dato_ROM_B_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">internal_dato_ROM_B_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/internal_in_reg_Rom_A" type="array">
+      <obj_property name="ElementShortName">internal_in_reg_Rom_A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">internal_in_reg_Rom_A[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/internal_out_reg_Rom_A" type="array">
+      <obj_property name="ElementShortName">internal_out_reg_Rom_A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">internal_out_reg_Rom_A[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/internal_in_reg_Rom_C" type="array">
+      <obj_property name="ElementShortName">internal_in_reg_Rom_C[7:0]</obj_property>
+      <obj_property name="ObjectShortName">internal_in_reg_Rom_C[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/internal_out_reg_Rom_C" type="array">
+      <obj_property name="ElementShortName">internal_out_reg_Rom_C[7:0]</obj_property>
+      <obj_property name="ObjectShortName">internal_out_reg_Rom_C[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/internal_hay_error_comp" type="logic">
+      <obj_property name="ElementShortName">internal_hay_error_comp</obj_property>
+      <obj_property name="ObjectShortName">internal_hay_error_comp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/debounced_input_acuse_error_comp" type="logic">
+      <obj_property name="ElementShortName">debounced_input_acuse_error_comp</obj_property>
+      <obj_property name="ObjectShortName">debounced_input_acuse_error_comp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/tb_reset" type="logic">
+      <obj_property name="ElementShortName">tb_reset</obj_property>
+      <obj_property name="ObjectShortName">tb_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/tb_clock" type="logic">
+      <obj_property name="ElementShortName">tb_clock</obj_property>
+      <obj_property name="ObjectShortName">tb_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/tb_error_comp" type="logic">
+      <obj_property name="ElementShortName">tb_error_comp</obj_property>
+      <obj_property name="ObjectShortName">tb_error_comp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/tb_start_cycle" type="logic">
+      <obj_property name="ElementShortName">tb_start_cycle</obj_property>
+      <obj_property name="ObjectShortName">tb_start_cycle</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/tb_output_comp" type="logic">
+      <obj_property name="ElementShortName">tb_output_comp</obj_property>
+      <obj_property name="ObjectShortName">tb_output_comp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/internal_reset" type="logic">
+      <obj_property name="ElementShortName">internal_reset</obj_property>
+      <obj_property name="ObjectShortName">internal_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/start_cycle" type="logic">
+      <obj_property name="ElementShortName">start_cycle</obj_property>
+      <obj_property name="ObjectShortName">start_cycle</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top_v3/UUT_1/acuse_error_comp" type="logic">
+      <obj_property name="ElementShortName">acuse_error_comp</obj_property>
+      <obj_property name="ObjectShortName">acuse_error_comp</obj_property>
+   </wvobject>
+</wave_config>

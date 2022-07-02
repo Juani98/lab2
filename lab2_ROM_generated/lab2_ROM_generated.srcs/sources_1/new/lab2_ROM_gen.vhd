@@ -1,6 +1,8 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
+-------------------------------------------------------------------
+ -- Enitiy --
+-------------------------------------------------------------------
 entity lab2_ROM_gen is
     Port (
         clka : IN STD_LOGIC;
@@ -8,9 +10,11 @@ entity lab2_ROM_gen is
         douta : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
     );
 end lab2_ROM_gen;
-
+-------------------------------------------------------------------
+ -- Architecture --
+-------------------------------------------------------------------
 architecture Behavioral of lab2_ROM_gen is
-------------- Begin Cut here for COMPONENT Declaration ------ COMP_TAG
+---------- Begin Cut here for COMPONENT Declaration ------ COMP_TAG
 COMPONENT blk_memB_gen_0
   PORT (
     clka : IN STD_LOGIC;
@@ -19,16 +23,13 @@ COMPONENT blk_memB_gen_0
   );
 END COMPONENT;
 -- COMP_TAG_END ------ End COMPONENT Declaration ------------
-
 begin
-------------- Begin Cut here for INSTANTIATION Template ----- INST_TAG
-your_instance_name : blk_memB_gen_0
+---------- Begin Cut here for INSTANTIATION Template ----- INST_TAG
+ROM_mem_generated : blk_memB_gen_0
   PORT MAP (
     clka => clka,
     addra => addra,
     douta => douta
   );
 -- INST_TAG_END ------ End INSTANTIATION Template ---------
-
-
 end Behavioral;

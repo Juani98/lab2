@@ -1,7 +1,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.numeric_std.all;
-
 -------------------------------------------------------------------
  -- Enitiy --
 -------------------------------------------------------------------
@@ -15,29 +14,24 @@ entity lad2_bloque_sumador is
          dato_A : in std_logic_vector(bus_width-1 downto 0);
          dato_B : in std_logic_vector(bus_width-1 downto 0);
          dato_C : in std_logic_vector(bus_width-1 downto 0);
-         dato_salida : out std_logic_vector(bus_width downto 0)
+         dato_salida : out std_logic_vector(bus_width-1 downto 0)
      );
 end lad2_bloque_sumador;
 -------------------------------------------------------------------
  -- Architecture --
 -------------------------------------------------------------------
 architecture Behavioral of lad2_bloque_sumador is
-
-
+--Señales internas
 signal internal_dato_A : std_logic_vector(bus_width-1 downto 0); 
 signal internal_dato_B : std_logic_vector(bus_width-1 downto 0); 
 signal internal_dato_C : std_logic_vector(bus_width-1 downto 0); 
 signal suma_AyB : unsigned(bus_width-1 downto 0);
 signal suma_AyByC : unsigned(bus_width-1 downto 0);
 --signal internal_suma_A_B_C : std_logic_vector(bus_width-1 downto 0); 
-
 begin
-
 -- Lógica concurrente y combinacional
 suma_AyB <= unsigned(internal_dato_A) + unsigned(internal_dato_B);
 suma_AyByC <= unsigned(internal_dato_C) + suma_AyB;
-
-
 -- Lógica secuencial
     process (clk,rst)
         --variables de process
@@ -51,11 +45,8 @@ suma_AyByC <= unsigned(internal_dato_C) + suma_AyB;
             internal_dato_A <= dato_A;
             internal_dato_B <= dato_B;
             internal_dato_C <= dato_C;
-            dato_salida <= "0" & std_logic_vector(suma_AyByC);
+            dato_salida <= std_logic_vector(suma_AyByC);
          end if;
  end process;
-
-
-
 
 end Behavioral;

@@ -4,13 +4,13 @@ use ieee.numeric_std.all;
 -------------------------------------------------------------------
  -- Enitiy --
 -------------------------------------------------------------------
-entity lab2_ROM_inf_testbench is
+entity lab2_ROM_gen_testbench is
 
-end lab2_ROM_inf_testbench;
+end lab2_ROM_gen_testbench;
 -------------------------------------------------------------------
  -- Architecture --
 -------------------------------------------------------------------
-architecture Behavioral of lab2_ROM_inf_testbench is
+architecture Behavioral of lab2_ROM_gen_testbench is
     component lab2_ROM_gen is 
         Port(
             clka : IN STD_LOGIC;
@@ -22,7 +22,7 @@ architecture Behavioral of lab2_ROM_inf_testbench is
     signal tb_clka : std_logic :='0';
     signal tb_addra : std_logic_vector(2 downto 0);
     signal tb_douta: std_logic_vector(7 downto 0);
-    constant clk_period: time := 15 ns; --Tclk=30nS -> Ton = Toff = 15nS - 50% duty
+    constant clk_period: time := 5 ns; --Tclk=10nS -> Ton = Toff = 10nS - 50% duty
 begin
  --Mapeo de puertos de la UUT
      UUT_1: lab2_ROM_gen port map (
@@ -30,32 +30,30 @@ begin
          addra => tb_addra,
          douta=> tb_douta
      );
- tb_clka <= not(tb_clka) after clk_period; --T=30nS
-
+ tb_clka <= not(tb_clka) after clk_period; --T=10nS
+-------------------------------------------------------------------
+-- Descripción --
+-- Realizar una simulación por 1uS
+-------------------------------------------------------------------
 process 
 begin
-
-wait for 200 ns;
+wait for 100 ns;
 tb_addra <= "000";
-wait for 200 ns;
+wait for 100 ns;
 tb_addra <= "001";
-wait for 200 ns;
+wait for 100 ns;
 tb_addra <= "010";
-wait for 200 ns;
+wait for 100 ns;
 tb_addra <= "011";
-wait for 200 ns;
+wait for 100 ns;
 tb_addra <= "100";
-wait for 200 ns;
+wait for 100 ns;
 tb_addra <= "101";
-wait for 200 ns;
+wait for 100 ns;
 tb_addra <= "110";
-wait for 200 ns;
+wait for 100 ns;
 tb_addra <= "111";
-wait for 200 ns;
-
+wait for 100 ns;
 wait;
 end process;
-
-
-
 end Behavioral;

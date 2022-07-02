@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab2_true_dual_ram_inf.srcs/sources_1/new/lab2_true_dual_ram_inf.vhd" \
+"../../../../lab2_true_dual_ram_inf.srcs/sim_1/new/testbench_ram_inf.vhd" \
+
+# Do not sort compile order
+nosort

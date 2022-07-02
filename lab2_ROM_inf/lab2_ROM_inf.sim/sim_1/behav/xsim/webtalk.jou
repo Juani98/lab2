@@ -2,8 +2,8 @@
 # Webtalk v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Sun Jun  5 23:24:45 2022
-# Process ID: 5292
+# Start of session at: Mon Jun 27 18:36:36 2022
+# Process ID: 14340
 # Current directory: C:/xilinx_proyectos/Laboratorios/lab2/lab2_ROM_inf/lab2_ROM_inf.sim/sim_1/behav/xsim
 # Command line: wbtcv.exe -mode batch -source C:/xilinx_proyectos/Laboratorios/lab2/lab2_ROM_inf/lab2_ROM_inf.sim/sim_1/behav/xsim/xsim.dir/lab2_ROM_inf_testbench_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: C:/xilinx_proyectos/Laboratorios/lab2/lab2_ROM_inf/lab2_ROM_inf.sim/sim_1/behav/xsim/webtalk.log

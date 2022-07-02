@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jun 27 18:39:34 2022
+# Process ID: 10820
+# Current directory: C:/xilinx_proyectos/Laboratorios/lab2/lab2_ROM_inf/lab2_ROM_inf.runs/synth_1
+# Command line: vivado.exe -log lab2_ROM_inf.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab2_ROM_inf.tcl
+# Log file: C:/xilinx_proyectos/Laboratorios/lab2/lab2_ROM_inf/lab2_ROM_inf.runs/synth_1/lab2_ROM_inf.vds
+# Journal file: C:/xilinx_proyectos/Laboratorios/lab2/lab2_ROM_inf/lab2_ROM_inf.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lab2_ROM_inf.tcl -notrace

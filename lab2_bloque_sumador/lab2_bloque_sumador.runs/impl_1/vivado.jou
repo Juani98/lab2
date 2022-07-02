@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Jun 26 22:00:04 2022
+# Process ID: 8268
+# Current directory: C:/xilinx_proyectos/Laboratorios/lab2/lab2_bloque_sumador/lab2_bloque_sumador.runs/impl_1
+# Command line: vivado.exe -log lad2_bloque_sumador.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source lad2_bloque_sumador.tcl -notrace
+# Log file: C:/xilinx_proyectos/Laboratorios/lab2/lab2_bloque_sumador/lab2_bloque_sumador.runs/impl_1/lad2_bloque_sumador.vdi
+# Journal file: C:/xilinx_proyectos/Laboratorios/lab2/lab2_bloque_sumador/lab2_bloque_sumador.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source lad2_bloque_sumador.tcl -notrace

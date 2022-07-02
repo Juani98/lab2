@@ -3,8 +3,8 @@
 // Tool Version: Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
 // Date        : Thu Jun 16 00:09:54 2022
 // Host        : DESKTOP-TV2T1SG running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               c:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/ip/blk_mem_gen_0_ROM_B/blk_mem_gen_0_ROM_B_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top blk_mem_gen_0_ROM_B -prefix
+//               blk_mem_gen_0_ROM_B_ blk_mem_gen_0_ROM_B_stub.v
 // Design      : blk_mem_gen_0_ROM_B
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z020clg484-1

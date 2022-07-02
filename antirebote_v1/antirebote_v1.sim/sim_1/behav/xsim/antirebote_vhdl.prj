@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../antirebote_v1.srcs/sources_1/new/antirebote.vhd" \
+"../../../../antirebote_v1.srcs/sim_1/new/testbench_antirebote.vhd" \
+
+# Do not sort compile order
+nosort

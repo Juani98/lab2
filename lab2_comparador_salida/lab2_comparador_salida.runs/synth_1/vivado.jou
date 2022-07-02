@@ -2,8 +2,8 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Sun Jun 12 17:17:51 2022
-# Process ID: 7336
+# Start of session at: Tue Jun 28 11:14:49 2022
+# Process ID: 6064
 # Current directory: C:/xilinx_proyectos/Laboratorios/lab2/lab2_comparador_salida/lab2_comparador_salida.runs/synth_1
 # Command line: vivado.exe -log lab2_comparador_salida.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab2_comparador_salida.tcl
 # Log file: C:/xilinx_proyectos/Laboratorios/lab2/lab2_comparador_salida/lab2_comparador_salida.runs/synth_1/lab2_comparador_salida.vds

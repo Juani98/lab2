@@ -30,7 +30,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 -- any Xilinx leaf cells in this code.
 --library UNISIM;
 --use UNISIM.VComponents.all;
-
+--hola
 entity FF_D is
     Port ( d : in STD_LOGIC;
            q : out STD_LOGIC;

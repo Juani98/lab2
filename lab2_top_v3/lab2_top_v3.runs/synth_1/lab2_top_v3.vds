@@ -1,0 +1,583 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jul  1 22:25:50 2022
+# Process ID: 9060
+# Current directory: C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.runs/synth_1
+# Command line: vivado.exe -log lab2_top_v3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab2_top_v3.tcl
+# Log file: C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.runs/synth_1/lab2_top_v3.vds
+# Journal file: C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lab2_top_v3.tcl -notrace
+Command: synth_design -top lab2_top_v3 -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14364 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 723.105 ; gain = 177.699
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'lab2_top_v3' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_top_v3.vhd:24]
+	Parameter cnt_width bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'counter_3bits' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/counter_3Bits/counter_3Bits.srcs/sources_1/new/counter_3Bits.vhd:6' bound to instance 'COMP_N1_counter3bits' of component 'counter_3bits' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_top_v3.vhd:219]
+INFO: [Synth 8-638] synthesizing module 'counter_3bits' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/counter_3Bits/counter_3Bits.srcs/sources_1/new/counter_3Bits.vhd:20]
+	Parameter cnt_width bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'counter_3bits' (1#1) [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/counter_3Bits/counter_3Bits.srcs/sources_1/new/counter_3Bits.vhd:20]
+	Parameter rst_width bound to: 2 - type: integer 
+	Parameter rst_active_value bound to: 1'b1 
+INFO: [Synth 8-3491] module 'rst_async_ass_synch_deass_v2' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteC/lab1_parteC.srcs/sources_1/new/PowerOnReset.vhd:3' bound to instance 'COMP_N2_PowerOnRst' of component 'rst_async_ass_synch_deass_v2' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_top_v3.vhd:234]
+INFO: [Synth 8-638] synthesizing module 'rst_async_ass_synch_deass_v2' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteC/lab1_parteC.srcs/sources_1/new/PowerOnReset.vhd:15]
+	Parameter rst_width bound to: 2 - type: integer 
+	Parameter rst_active_value bound to: 1'b1 
+INFO: [Synth 8-256] done synthesizing module 'rst_async_ass_synch_deass_v2' (2#1) [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteC/lab1_parteC.srcs/sources_1/new/PowerOnReset.vhd:15]
+INFO: [Synth 8-3491] module 'lab2_FSM' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_FSM/lab2_FSM.srcs/sources_1/new/lab2_FSM.vhd:7' bound to instance 'COMP_N3_FSM' of component 'lab2_FSM' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_top_v3.vhd:243]
+INFO: [Synth 8-638] synthesizing module 'lab2_FSM' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_FSM/lab2_FSM.srcs/sources_1/new/lab2_FSM.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'lab2_FSM' (3#1) [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_FSM/lab2_FSM.srcs/sources_1/new/lab2_FSM.vhd:27]
+	Parameter bus_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'lad2_bloque_sumador' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_bloque_sumador/lab2_bloque_sumador.srcs/sources_1/new/lad2_bloque_sumador.vhd:8' bound to instance 'COMP_N4_bloque_sumador' of component 'lad2_bloque_sumador' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_top_v3.vhd:263]
+INFO: [Synth 8-638] synthesizing module 'lad2_bloque_sumador' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_bloque_sumador/lab2_bloque_sumador.srcs/sources_1/new/lad2_bloque_sumador.vhd:24]
+	Parameter bus_width bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lad2_bloque_sumador' (4#1) [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_bloque_sumador/lab2_bloque_sumador.srcs/sources_1/new/lad2_bloque_sumador.vhd:24]
+INFO: [Synth 8-3491] module 'lab2_ROM_inf' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_ROM_inf/lab2_ROM_inf.srcs/sources_1/new/lab2_ROM_inf.vhd:6' bound to instance 'COMP_N5_ROM_A' of component 'lab2_ROM_inf' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_top_v3.vhd:274]
+INFO: [Synth 8-638] synthesizing module 'lab2_ROM_inf' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_ROM_inf/lab2_ROM_inf.srcs/sources_1/new/lab2_ROM_inf.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'lab2_ROM_inf' (5#1) [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_ROM_inf/lab2_ROM_inf.srcs/sources_1/new/lab2_ROM_inf.vhd:13]
+INFO: [Synth 8-3491] module 'lab2_ROM_inf' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_ROM_inf/lab2_ROM_inf.srcs/sources_1/new/lab2_ROM_inf.vhd:6' bound to instance 'COMP_N6_ROM_C' of component 'lab2_ROM_inf' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_top_v3.vhd:282]
+INFO: [Synth 8-3491] module 'lab2_ROM_D_inf' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_ROM_D_inf.vhd:6' bound to instance 'COMP_N7_ROM_D' of component 'lab2_ROM_D_inf' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_top_v3.vhd:290]
+INFO: [Synth 8-638] synthesizing module 'lab2_ROM_D_inf' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_ROM_D_inf.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'lab2_ROM_D_inf' (6#1) [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_ROM_D_inf.vhd:13]
+INFO: [Synth 8-3491] module 'lab2_ROM_gen' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_ROM_gen.vhd:5' bound to instance 'COMP_N8_ROM_B' of component 'lab2_ROM_gen' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_top_v3.vhd:298]
+INFO: [Synth 8-638] synthesizing module 'lab2_ROM_gen' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_ROM_gen.vhd:13]
+INFO: [Synth 8-3491] module 'blk_mem_gen_0_ROM_B' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.runs/synth_1/.Xil/Vivado-9060-DESKTOP-TV2T1SG/realtime/blk_mem_gen_0_ROM_B_stub.vhdl:5' bound to instance 'ROM_B_GEN' of component 'blk_mem_gen_0_ROM_B' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_ROM_gen.vhd:23]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0_ROM_B' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.runs/synth_1/.Xil/Vivado-9060-DESKTOP-TV2T1SG/realtime/blk_mem_gen_0_ROM_B_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'lab2_ROM_gen' (7#1) [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_ROM_gen.vhd:13]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDR_WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'single_ram' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/single_ram.vhd:10' bound to instance 'COMP_N9_RAM_A' of component 'single_ram' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_top_v3.vhd:306]
+INFO: [Synth 8-638] synthesizing module 'single_ram' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/single_ram.vhd:35]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDR_WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'single_ram' (8#1) [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/single_ram.vhd:35]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDR_WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'single_ram' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/single_ram.vhd:10' bound to instance 'COMP_N10_RAM_B' of component 'single_ram' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_top_v3.vhd:318]
+	Parameter bus_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'lab2_comparador_salida' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/new/lab2_comparador_salida.vhd:6' bound to instance 'COMP_N11_COMP_SALIDA' of component 'lab2_comparador_salida' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_top_v3.vhd:331]
+INFO: [Synth 8-638] synthesizing module 'lab2_comparador_salida' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/new/lab2_comparador_salida.vhd:21]
+	Parameter bus_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'divisor_frecuencia' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/sources_1/new/divisor_frecuencia.vhd:7' bound to instance 'componente_divisor_frecuencia' of component 'divisor_frecuencia' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/new/lab2_comparador_salida.vhd:36]
+INFO: [Synth 8-638] synthesizing module 'divisor_frecuencia' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/sources_1/new/divisor_frecuencia.vhd:19]
+	Parameter cnt_width bound to: 29 - type: integer 
+INFO: [Synth 8-3491] module 'counter_Nbits' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/sources_1/imports/new/counter_Nbits.vhd:6' bound to instance 'counter1' of component 'counter_Nbits' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/sources_1/new/divisor_frecuencia.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'counter_Nbits' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/sources_1/imports/new/counter_Nbits.vhd:20]
+	Parameter cnt_width bound to: 29 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'counter_Nbits' (9#1) [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/sources_1/imports/new/counter_Nbits.vhd:20]
+INFO: [Synth 8-3491] module 'rst_async_ass_synch_deass' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_reset_async_sync/lab2_reset_async_sync.srcs/sources_1/new/PowerOnReset.vhd:6' bound to instance 'rst_async_ass_synch_deass1' of component 'rst_async_ass_synch_deass' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/sources_1/new/divisor_frecuencia.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'rst_async_ass_synch_deass' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_reset_async_sync/lab2_reset_async_sync.srcs/sources_1/new/PowerOnReset.vhd:20]
+	Parameter rst_width bound to: 2 - type: integer 
+	Parameter rst_active_value bound to: 1'b1 
+WARNING: [Synth 8-614] signal 'sys_rst_i' is read in the process but is not in the sensitivity list [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_reset_async_sync/lab2_reset_async_sync.srcs/sources_1/new/PowerOnReset.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'rst_async_ass_synch_deass' (10#1) [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_reset_async_sync/lab2_reset_async_sync.srcs/sources_1/new/PowerOnReset.vhd:20]
+INFO: [Synth 8-3491] module 'synchronizer' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/synchronizer.vhd:4' bound to instance 'synchronizer1' of component 'synchronizer' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/sources_1/new/divisor_frecuencia.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'synchronizer' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/synchronizer.vhd:11]
+INFO: [Synth 8-3491] module 'FF_D' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/FF_D.vhd:34' bound to instance 'FF_D1' of component 'FF_D' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/synchronizer.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'FF_D' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/FF_D.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'FF_D' (11#1) [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/FF_D.vhd:41]
+INFO: [Synth 8-3491] module 'FF_D' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/FF_D.vhd:34' bound to instance 'FF_D2' of component 'FF_D' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/synchronizer.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synchronizer' (12#1) [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/synchronizer.vhd:11]
+INFO: [Synth 8-3491] module 'synchronizer' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/synchronizer.vhd:4' bound to instance 'synchronizer2' of component 'synchronizer' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/sources_1/new/divisor_frecuencia.vhd:93]
+INFO: [Synth 8-3491] module 'synchronizer' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/synchronizer.vhd:4' bound to instance 'synchronizer3' of component 'synchronizer' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/sources_1/new/divisor_frecuencia.vhd:100]
+INFO: [Synth 8-256] done synthesizing module 'divisor_frecuencia' (13#1) [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/sources_1/new/divisor_frecuencia.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'lab2_comparador_salida' (14#1) [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/new/lab2_comparador_salida.vhd:21]
+INFO: [Synth 8-3491] module 'reg_8bits' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/reg_8bits.vhd:5' bound to instance 'COMP_N12_REG_A_ROM_A' of component 'reg_8bits' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_top_v3.vhd:344]
+INFO: [Synth 8-638] synthesizing module 'reg_8bits' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/reg_8bits.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'reg_8bits' (15#1) [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/reg_8bits.vhd:12]
+INFO: [Synth 8-3491] module 'reg_8bits' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/reg_8bits.vhd:5' bound to instance 'COMP_N13_REG_C_ROM_C' of component 'reg_8bits' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_top_v3.vhd:354]
+	Parameter cnt_width bound to: 21 - type: integer 
+INFO: [Synth 8-3491] module 'debounce_v2' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/debouncer.vhd:7' bound to instance 'COMP_N14_DEBOUNCE_START' of component 'debounce_v2' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_top_v3.vhd:364]
+INFO: [Synth 8-638] synthesizing module 'debounce_v2' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/debouncer.vhd:21]
+	Parameter cnt_width bound to: 21 - type: integer 
+INFO: [Synth 8-3491] module 'counter_22bits' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/counter_22bits.vhd:6' bound to instance 'counter1_22bits' of component 'counter_22bits' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/debouncer.vhd:63]
+INFO: [Synth 8-638] synthesizing module 'counter_22bits' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/counter_22bits.vhd:20]
+	Parameter cnt_width bound to: 21 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'counter_22bits' (16#1) [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/counter_22bits.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'debounce_v2' (17#1) [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/debouncer.vhd:21]
+	Parameter cnt_width bound to: 21 - type: integer 
+INFO: [Synth 8-3491] module 'debounce_v2' declared at 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/debouncer.vhd:7' bound to instance 'COMP_N15_DEBOUNCE_ACUSE_ERR' of component 'debounce_v2' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_top_v3.vhd:375]
+INFO: [Synth 8-256] done synthesizing module 'lab2_top_v3' (18#1) [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/lab2_top_v3.vhd:24]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 789.195 ; gain = 243.789
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 789.195 ; gain = 243.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 789.195 ; gain = 243.789
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/ip/blk_mem_gen_0_ROM_B/blk_mem_gen_0_ROM_B/blk_mem_gen_0_ROM_B_in_context.xdc] for cell 'COMP_N8_ROM_B/ROM_B_GEN'
+Finished Parsing XDC File [c:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/ip/blk_mem_gen_0_ROM_B/blk_mem_gen_0_ROM_B/blk_mem_gen_0_ROM_B_in_context.xdc] for cell 'COMP_N8_ROM_B/ROM_B_GEN'
+Parsing XDC File [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/constrs_1/new/zedboard_master_XDC_RevC_D_v3.xdc]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 33]]'. [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/constrs_1/new/zedboard_master_XDC_RevC_D_v3.xdc:363]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 34]]'. [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/constrs_1/new/zedboard_master_XDC_RevC_D_v3.xdc:368]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 35]]'. [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/constrs_1/new/zedboard_master_XDC_RevC_D_v3.xdc:373]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 13]]'. [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/constrs_1/new/zedboard_master_XDC_RevC_D_v3.xdc:376]
+Finished Parsing XDC File [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/constrs_1/new/zedboard_master_XDC_RevC_D_v3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/constrs_1/new/zedboard_master_XDC_RevC_D_v3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/lab2_top_v3_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/lab2_top_v3_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 905.516 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 905.516 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'COMP_N8_ROM_B/ROM_B_GEN' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 914.648 ; gain = 369.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 914.648 ; gain = 369.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for COMP_N8_ROM_B/ROM_B_GEN. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 914.648 ; gain = 369.242
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'lab2_FSM'
+INFO: [Synth 8-5544] ROM "out_current_state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "flag_de_error_comp" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wea_A" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "en_counter" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "load_counter" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/sources_1/imports/new/counter_Nbits.vhd:38]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/new/counter_22bits.vhd:37]
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'debounce_v2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s0 |                    0000000000001 |                             0000
+                      s1 |                    0000000000010 |                             0001
+                      s2 |                    0000000000100 |                             0010
+                      s3 |                    0000000001000 |                             0011
+                      s4 |                    0000000010000 |                             0100
+                      s5 |                    0000000100000 |                             0101
+                      s6 |                    0000001000000 |                             0110
+                      s7 |                    0000010000000 |                             0111
+                      s8 |                    0000100000000 |                             1000
+                      s9 |                    0001000000000 |                             1001
+                     s10 |                    0010000000000 |                             1010
+                     s12 |                    0100000000000 |                             1100
+                     s11 |                    1000000000000 |                             1011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'lab2_FSM'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s0 |                               00 |                               00
+                      s1 |                               01 |                               01
+                      s2 |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'debounce_v2'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 914.648 ; gain = 369.242
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'COMP_N5_ROM_A' (lab2_ROM_inf) to 'COMP_N6_ROM_C'
+INFO: [Synth 8-223] decloning instance 'COMP_N12_REG_A_ROM_A' (reg_8bits) to 'COMP_N13_REG_C_ROM_C'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 7     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 3     
+	                1 Bit    Registers := 13    
++---RAMs : 
+	               64 Bit         RAMs := 2     
++---Muxes : 
+	   2 Input     29 Bit        Muxes := 1     
+	   4 Input     29 Bit        Muxes := 1     
+	  13 Input     13 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 5     
+	   8 Input      5 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 1     
+	   8 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 7     
+	   3 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module counter_3bits 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module rst_async_ass_synch_deass_v2 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+Module lab2_FSM 
+Detailed RTL Component Info : 
++---Muxes : 
+	  13 Input     13 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 5     
+	  13 Input      4 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 2     
+Module lad2_bloque_sumador 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 4     
+Module lab2_ROM_inf 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   8 Input      4 Bit        Muxes := 1     
+Module lab2_ROM_D_inf 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   8 Input      5 Bit        Muxes := 1     
+Module single_ram 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---RAMs : 
+	               64 Bit         RAMs := 1     
+Module counter_Nbits 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module rst_async_ass_synch_deass 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+Module FF_D 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module divisor_frecuencia 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     29 Bit        Muxes := 1     
+	   4 Input     29 Bit        Muxes := 1     
+Module lab2_comparador_salida 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module reg_8bits 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module counter_22bits 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module debounce_v2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'COMP_N4_bloque_sumador/internal_dato_C_reg[7:0]' into 'COMP_N4_bloque_sumador/internal_dato_A_reg[7:0]' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_bloque_sumador/lab2_bloque_sumador.srcs/sources_1/new/lad2_bloque_sumador.vhd:38]
+INFO: [Synth 8-4471] merging register 'COMP_N11_COMP_SALIDA/componente_divisor_frecuencia/synchronizer2/FF_D1/q_reg' into 'COMP_N11_COMP_SALIDA/componente_divisor_frecuencia/synchronizer1/FF_D1/q_reg' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/FF_D.vhd:48]
+INFO: [Synth 8-4471] merging register 'COMP_N11_COMP_SALIDA/componente_divisor_frecuencia/synchronizer2/FF_D2/q_reg' into 'COMP_N11_COMP_SALIDA/componente_divisor_frecuencia/synchronizer1/FF_D2/q_reg' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/FF_D.vhd:48]
+INFO: [Synth 8-4471] merging register 'COMP_N11_COMP_SALIDA/componente_divisor_frecuencia/synchronizer3/FF_D1/q_reg' into 'COMP_N11_COMP_SALIDA/componente_divisor_frecuencia/synchronizer1/FF_D1/q_reg' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/FF_D.vhd:48]
+INFO: [Synth 8-4471] merging register 'COMP_N11_COMP_SALIDA/componente_divisor_frecuencia/synchronizer3/FF_D2/q_reg' into 'COMP_N11_COMP_SALIDA/componente_divisor_frecuencia/synchronizer1/FF_D2/q_reg' [C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.srcs/sources_1/imports/lab2/lab2_comparador_salida/lab2_comparador_salida.srcs/sources_1/imports/lab1/lab1_parteA/lab1_parteA.srcs/sources_1/imports/new/FF_D.vhd:48]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\COMP_N11_COMP_SALIDA/componente_divisor_frecuencia/synchronizer1/FF_D1/q_reg )
+INFO: [Synth 8-3886] merging instance 'COMP_N12_REG_A_ROM_A/q_reg[7]' (FDC) to 'COMP_N12_REG_A_ROM_A/q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'COMP_N12_REG_A_ROM_A/q_reg[5]' (FDC) to 'COMP_N12_REG_A_ROM_A/q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'COMP_N12_REG_A_ROM_A/q_reg[6]' (FDC) to 'COMP_N12_REG_A_ROM_A/q_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\COMP_N12_REG_A_ROM_A/q_reg[4] )
+INFO: [Synth 8-3886] merging instance 'COMP_N11_COMP_SALIDA/componente_divisor_frecuencia/synchronizer1/FF_D2/q_reg' (FDC) to 'COMP_N11_COMP_SALIDA/componente_divisor_frecuencia/synchronizer1/FF_D1/q_reg'
+INFO: [Synth 8-3886] merging instance 'COMP_N4_bloque_sumador/internal_dato_A_reg[5]' (FDC) to 'COMP_N12_REG_A_ROM_A/q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'COMP_N4_bloque_sumador/internal_dato_A_reg[7]' (FDC) to 'COMP_N12_REG_A_ROM_A/q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'COMP_N4_bloque_sumador/internal_dato_A_reg[6]' (FDC) to 'COMP_N12_REG_A_ROM_A/q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'COMP_N4_bloque_sumador/internal_dato_A_reg[4]' (FDC) to 'COMP_N12_REG_A_ROM_A/q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/COMP_N10_RAM_B/q_reg[6]' (FD) to 'i_0/COMP_N10_RAM_B/q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/COMP_N10_RAM_B/q_reg[7]' (FD) to 'i_0/COMP_N10_RAM_B/q_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\COMP_N11_COMP_SALIDA/componente_divisor_frecuencia/synchronizer1/FF_D1/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\COMP_N12_REG_A_ROM_A/q_reg[4] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 914.648 ; gain = 369.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+-------------------------+-----------+----------------------+----------------+
+|Module Name | RTL Object              | Inference | Size (Depth x Width) | Primitives     | 
++------------+-------------------------+-----------+----------------------+----------------+
+|lab2_top_v3 | COMP_N10_RAM_B/bram_reg | Implied   | 8 x 5                | RAM16X1S x 8   | 
+|lab2_top_v3 | COMP_N9_RAM_A/bram_reg  | Implied   | 8 x 8                | RAM16X1S x 8   | 
++------------+-------------------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 914.648 ; gain = 369.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 914.648 ; gain = 369.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+-------------------------+-----------+----------------------+----------------+
+|Module Name | RTL Object              | Inference | Size (Depth x Width) | Primitives     | 
++------------+-------------------------+-----------+----------------------+----------------+
+|lab2_top_v3 | COMP_N10_RAM_B/bram_reg | Implied   | 8 x 5                | RAM16X1S x 8   | 
+|lab2_top_v3 | COMP_N9_RAM_A/bram_reg  | Implied   | 8 x 8                | RAM16X1S x 8   | 
++------------+-------------------------+-----------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 914.648 ; gain = 369.242
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 916.285 ; gain = 370.879
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 916.285 ; gain = 370.879
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 916.285 ; gain = 370.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 916.285 ; gain = 370.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 916.285 ; gain = 370.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 916.285 ; gain = 370.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------------+----------+
+|      |BlackBox name       |Instances |
++------+--------------------+----------+
+|1     |blk_mem_gen_0_ROM_B |         1|
++------+--------------------+----------+
+
+Report Cell Usage: 
++------+---------------------------+------+
+|      |Cell                       |Count |
++------+---------------------------+------+
+|1     |blk_mem_gen_0_ROM_B_bbox_0 |     1|
+|2     |BUFG                       |     1|
+|3     |CARRY4                     |    22|
+|4     |LUT1                       |    32|
+|5     |LUT2                       |    42|
+|6     |LUT3                       |     6|
+|7     |LUT4                       |     6|
+|8     |LUT5                       |     5|
+|9     |LUT6                       |    25|
+|10    |RAM16X1S                   |    14|
+|11    |FDCE                       |   119|
+|12    |FDPE                       |     5|
+|13    |FDRE                       |    24|
+|14    |FDSE                       |     1|
+|15    |IBUF                       |     4|
+|16    |OBUF                       |     6|
++------+---------------------------+------+
+
+Report Instance Areas: 
++------+----------------------------------+-----------------------------+------+
+|      |Instance                          |Module                       |Cells |
++------+----------------------------------+-----------------------------+------+
+|1     |top                               |                             |   320|
+|2     |  COMP_N10_RAM_B                  |single_ram                   |    13|
+|3     |  COMP_N11_COMP_SALIDA            |lab2_comparador_salida       |   108|
+|4     |    componente_divisor_frecuencia |divisor_frecuencia           |   107|
+|5     |      counter1                    |counter_Nbits                |   102|
+|6     |      rst_async_ass_synch_deass1  |rst_async_ass_synch_deass    |     3|
+|7     |  COMP_N12_REG_A_ROM_A            |reg_8bits                    |     4|
+|8     |  COMP_N14_DEBOUNCE_START         |debounce_v2                  |    39|
+|9     |    counter1_22bits               |counter_22bits_2             |    35|
+|10    |  COMP_N15_DEBOUNCE_ACUSE_ERR     |debounce_v2_0                |    38|
+|11    |    counter1_22bits               |counter_22bits               |    35|
+|12    |  COMP_N1_counter3bits            |counter_3bits                |    15|
+|13    |  COMP_N2_PowerOnRst              |rst_async_ass_synch_deass_v2 |     2|
+|14    |  COMP_N3_FSM                     |lab2_FSM                     |    26|
+|15    |  COMP_N4_bloque_sumador          |lad2_bloque_sumador          |    26|
+|16    |  COMP_N5_ROM_A                   |lab2_ROM_inf                 |     4|
+|17    |  COMP_N7_ROM_D                   |lab2_ROM_D_inf               |     5|
+|18    |  COMP_N8_ROM_B                   |lab2_ROM_gen                 |     8|
+|19    |  COMP_N9_RAM_A                   |single_ram_1                 |    21|
++------+----------------------------------+-----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 916.285 ; gain = 370.879
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 916.285 ; gain = 245.426
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 916.285 ; gain = 370.879
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 36 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 933.441 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 14 instances were transformed.
+  RAM16X1S => RAM32X1S (RAMS32): 14 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+106 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:42 . Memory (MB): peak = 933.441 ; gain = 639.227
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 933.441 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.runs/synth_1/lab2_top_v3.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file lab2_top_v3_utilization_synth.rpt -pb lab2_top_v3_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jul  1 22:26:41 2022...

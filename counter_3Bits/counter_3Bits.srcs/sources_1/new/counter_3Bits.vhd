@@ -1,8 +1,9 @@
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.numeric_std.all;
-
+------------------------------------------------------------------
+ -- Enitiy --
+------------------------------------------------------------------
 entity counter_Nbits is
     generic(cnt_width: natural:= 3); --selección de la resolución del contador
     Port ( 
@@ -16,13 +17,13 @@ entity counter_Nbits is
         carry_out : out std_logic
         );
 end counter_Nbits;
-
+------------------------------------------------------------------
+ -- Architecture --
+------------------------------------------------------------------
 architecture Behavioral of counter_Nbits is
     constant full_count: std_logic_vector(cnt_width-1 downto 0) := (others =>'1');
     signal counter  : unsigned(cnt_width-1 downto 0);
-
 begin
-
     process(clk,rst,enable,counter)
     begin
         if (rst='1') then --reset activo en alto

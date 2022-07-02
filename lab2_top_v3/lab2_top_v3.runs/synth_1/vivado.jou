@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jul  1 22:25:50 2022
+# Process ID: 9060
+# Current directory: C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.runs/synth_1
+# Command line: vivado.exe -log lab2_top_v3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab2_top_v3.tcl
+# Log file: C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.runs/synth_1/lab2_top_v3.vds
+# Journal file: C:/xilinx_proyectos/Laboratorios/lab2/lab2_top_v3/lab2_top_v3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lab2_top_v3.tcl -notrace
